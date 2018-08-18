@@ -1,0 +1,75 @@
+#containerSlider {
+	width:80%;
+	height: 450px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position:relative;
+}
+
+#containerSlider>img{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+#containerSlider>button{
+	position:absolute;
+	width:50px;
+	height:50px;
+	border:none;
+	border-radius:25px;
+	top:200px;
+	background:black;
+	color:white;
+	font-size:20px;
+}
+
+#containerSlider>#btn1:hover{
+	box-shadow: -10px 0px 20px 0px black;
+
+}
+
+#containerSlider>#btn2:hover{
+	box-shadow: 10px 0px 20px 0px black;
+
+}
+
+#containerSlider>#btn2{
+	position:relative;
+	float:right;
+}
+
+.menuText{
+	font-size: 48px
+
+}
+
+#menuPics1 img{
+	margin:5px;
+	height: 300px;
+	width:350px;
+}
+
+
+#menuPics2 img{
+	width:100%;
+
+}
+
+#menuPics3 img{
+	width:100%;
+}
+
+#menuPics4 img{
+	width:100%;
+}
+
+#menuPics5 img{
+	margin:5px;
+	height:300px;
+	width:350px;
+}
+
+.footerText a{
+	font-size:20px;
+}
